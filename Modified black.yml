@@ -12,4 +12,4 @@
     - source_labels: [__param_target]
       target_label: instance
     - target_label: __address__
-      replacement: 13.201.126.70:9115  # The blackbox exporter's real hostname:port.
+      replacement: 13.201.126.70:9115  # The blackbox exporter's real hostname:port.(public IP)
